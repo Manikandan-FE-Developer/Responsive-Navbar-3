@@ -1,0 +1,44 @@
+h1{
+	color: #00FFFF;	
+}
+body{
+	background-color: #1C2A44;
+}
+a{
+	color:#00FFFF;
+	text-decoration: none;
+}
+ul{
+	margin: 5%;
+	width: 450px;
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	padding: 25px 0;
+	border-radius: 25px;
+	border:0.1px solid #099FFF;
+	background-color: #18181B;
+	box-shadow: 0 4px 8px 0 #00FFFF,0 6px 20px 0 rgba(0,0,0,0.19);
+}
+li{
+	margin: auto;
+	font-size: 20px;
+	cursor: pointer;
+}
+a:hover{
+	color: white;
+}
+@media only screen and (max-width: 1000px){
+	h1{
+		font-size: 80px;
+		letter-spacing: 3px;
+	}
+	ul{
+		width: 850px;
+	}
+	li{
+		font-size: 45px;
+		padding: 15px;
+		letter-spacing: 2px;
+	}
+}
